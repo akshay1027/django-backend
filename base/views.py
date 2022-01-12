@@ -3,8 +3,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    # context = {'rooms': rooms}
-    return render(request, 'base/home.html')
+    return HttpResponse("you are in home page")
 
 
 def room(request):

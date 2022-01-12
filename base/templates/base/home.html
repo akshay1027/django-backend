@@ -17,16 +17,12 @@
     </div>
 
     <div>
-        <h5>{{room_count}} rooms available</h5>
-        <a href="{% url 'create-room' %}">Create Room</a>
-
-        {% include 'base/feed_component.html' %}
-
+        <h5> rooms available</h5>
     </div>
 
 
     <div>
-        {% include 'base/activity_component.html' %}
+        {% comment %} {% include 'base/activity_component.html' %} {% endcomment %}
     </div>
 
 
